@@ -1,0 +1,126 @@
+[00:00:02.840] Server  LOG      ✓ Ready in 2.4s
+[00:00:09.475] Server  LOG      ○ Compiling / ...
+[00:00:19.300] Server  ERROR    ⨯ ./Documents/React Projects/shirtshoppe/app/page.tsx:167:19
+Parsing ecmascript source code failed
+  165 |               )}
+  166 |             </Button>
+> 167 |             </nav>
+      |                   ^
+> 168 |           </div>
+      | ^^^^^^^^^^^
+  169 |         </div>
+  170 |       </header>
+  171 |
+
+Expected '</', got 'jsx text (
+          )'
+
+
+[00:00:19.340] Server  ERROR    ⨯ ./Documents/React Projects/shirtshoppe/app/page.tsx:167:19
+Parsing ecmascript source code failed
+  165 |               )}
+  166 |             </Button>
+> 167 |             </nav>
+      |                   ^
+> 168 |           </div>
+      | ^^^^^^^^^^^
+  169 |         </div>
+  170 |       </header>
+  171 |
+
+Expected '</', got 'jsx text (
+          )'
+
+
+[00:00:20.987] Browser ERROR   uncaughtError: Error: ./Documents/React Projects/shirtshoppe/app/page.tsx:167:19
+Parsing ecmascript source code failed
+  165 |               )}
+  166 |             </Button>
+> 167 |             </nav>
+      |                   ^
+> 168 |           </div>
+      | ^^^^^^^^^^^
+  169 |         </div>
+  170 |       </header>
+  171 |
+
+Expected '</', got 'jsx text (
+          )'
+
+
+[00:00:21.193] Browser ERROR   ./Documents/React Projects/shirtshoppe/app/page.tsx:167:19
+Parsing ecmascript source code failed
+  165 |               )}
+  166 |             </Button>
+> 167 |             </nav>
+      |                   ^
+> 168 |           </div>
+      | ^^^^^^^^^^^
+  169 |         </div>
+  170 |       </header>
+  171 |
+
+Expected '</', got 'jsx text (
+          )'
+[00:00:21.193] Browser ERROR   ./Documents/React Projects/shirtshoppe/app/page.tsx:167:19
+Parsing ecmascript source code failed
+  165 |               )}
+  166 |             </Button>
+> 167 |             </nav>
+      |                   ^
+> 168 |           </div>
+      | ^^^^^^^^^^^
+  169 |         </div>
+  170 |       </header>
+  171 |
+
+Expected '</', got 'jsx text (
+          )'
+[00:00:26.700] Browser ERROR   ./Documents/React Projects/shirtshoppe/app/page.tsx:167:19
+Parsing ecmascript source code failed
+  165 |               )}
+  166 |             </Button>
+> 167 |             </nav>
+      |                   ^
+> 168 |           </div>
+      | ^^^^^^^^^^^
+  169 |         </div>
+  170 |       </header>
+  171 |
+
+Expected '</', got 'jsx text (
+          )'
+[00:02:00.048] Server  LOG      ✓ Compiled in 179ms
+[00:02:00.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:30.049] Server  LOG      ✓ Compiled in 64ms
+[00:03:44.493] Server  LOG      ✓ Compiled in 46ms
+[00:03:49.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:59.451] Server  LOG      ✓ Compiled in 30ms
+[00:04:38.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:53.130] Server  LOG      ✓ Compiled in 51ms
+[00:09:47.888] Server  LOG      ✓ Compiled in 41ms
+[00:24:04.166] Server  LOG      ✓ Compiled in 65ms
+[00:24:04.558] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:25:02.700] Server  LOG      ✓ Compiled in 45ms
+[00:25:03.559] Browser ERROR   ./Documents/React Projects/shirtshoppe/app/about/page.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import { useRef } from "react";
+  4 | import Link from 'next/link';
+> 5 | '
+    | ^
+  6 | import { motion, useInView } from "framer-motion";
+  7 | import { Button } from "@/components/ui/button";
+  8 | import { Card, CardContent } from "@/components/ui/card";
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Documents/React Projects/shirtshoppe/app/about/page.tsx [Client Component Browser]
+    ./Documents/React Projects/shirtshoppe/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/React Projects/shirtshoppe/app/about/page.tsx [Client Component SSR]
+    ./Documents/React Projects/shirtshoppe/app/about/page.tsx [Server Component]
+[00:25:07.619] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:07.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
